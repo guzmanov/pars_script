@@ -1,0 +1,6 @@
+expired.badssl.com
+google.com
+yandex.ru/error
+vkontakte.ru/
+durov.com
+goo.su/2sZI
