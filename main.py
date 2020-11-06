@@ -18,7 +18,7 @@ for x in l:
     response = requests.get("https://"+x)
     if response.status_code == 404 and 400:
         print(x + colored(" --- NOT FOUND", "red"))
-    elif response.status_code == 502 and 503 and 504:
+    elif response.status_code == 500 and 502 and 503 and 504:
         print(x + colored(" --- SERVER ERROR", "red"))
     elif response.status_code == 301 and 302:
         print(x + colored(" --- REDIRECT", "yellow"))
